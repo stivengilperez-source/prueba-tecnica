@@ -1,0 +1,42 @@
+:root {
+  --text: #2d2a32;
+  --text-h: #1a1720;
+  --bg: #f5f3f7;
+  --card-bg: #ffffff;
+  --border: #e2dfe8;
+  --primary: #6b21a8;
+  --primary-hover: #581c87;
+  --accent: #1565c0;
+  --success-bg: #e8f7ee;
+  --success-text: #166534;
+  --error-bg: #fdecec;
+  --error-text: #b91c1c;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--text);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('/Gemini_Generated_Image_copcobcopcobcopc.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
